@@ -1,0 +1,15 @@
+group 'com.mageddo'
+version '1.0.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.seleniumhq.selenium:selenium-java:2.53.0'
+	testImplementation 'junit:junit:4.11'
+}
